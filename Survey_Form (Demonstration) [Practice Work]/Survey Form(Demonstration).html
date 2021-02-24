@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	 <title>Survey Form</title>
+	 <style>
+		body
+		{
+		  text-align:center;
+		  background-color:lightgreen;
+		  margin:0px;
+		  text-width :200;
+		  text-height :150;
+		  <img src ="website-design-background-1.jpg" alt ="Baground Image"/>
+		}
+		div
+		{
+			padding:0px;
+		}
+		h1
+		{
+			padding : 10px 10px 10px 10px;
+			border : 2px red;
+			border-radius :25px;
+			Box-shadow : 5px 5px;
+			shadowColor ="Dark green"
+			shadowBlur = 20;
+		}
+		h4
+		{
+		    font-size : 50px;
+			color:brown;
+		    padding : 5px 5px 5px 5px;
+			border ; 2px red;
+			border-radius : 15px;
+		}
+	 </style>
+	
+	</head>
+	   <body>
+		 <!---Header Section -->
+			<div>
+			 <h1 style ="background-color:blue;color:white">Survey Form</h1>		 
+			</div>
+		 <!---Text Box Section --->	
+			
+				 <h4 style = "background-color:aqua"><marquee><strong>Let us know how we can improve freeCodeCamp</strong></marquee></h4>
+			<div>	 
+				 <label for="name"><span style="Color:red">*</span><span style="font-size:20px"><strong>Name:</strong></span></label>&nbsp;
+				 <input type="text" id ="Name"  name ="Name" style ="font-size:15px"><br><br>
+				 
+				 <label for="Mail" style="font-size:20px"><span style = "Color:red">*</span><strong>Mail:</strong></label>&nbsp;
+				 <input type="text" id ="Mail" name ="Mail" style ="font-size:15px"><br><br>
+				 
+				 <label for="Age" style ="font-size:20px"><span style = "Color : red">*</span><strong>Age:</strong></label>&nbsp;
+				 <input type="Age" id="Age" name="Age" style ="font-size:15px"><br><br>
+			 
+			</div>
+			<!--Combo Box Section--->
+			<div>
+				<label for="Current Role" style = "font-size:20px"><strong>Which option best describe your current role?</strong></label>&nbsp;
+				<select class="combo" style = "font-size:15px">
+				<option value ="Blank"></option>
+				<option value ="Farmer">Developer</option>
+				<option value ="Mechanics">Student</option>
+				<option value ="Teacher">Teacher</option>
+				</select><br><br>
+			</div>
+		<!---Radio Button Section-->	
+			<div>
+				<label style = "font-size:20px"><span style ="color:red">*</span><strong>How likely is that you would recommend freeCodeCamp to a friend?</strong></label><br><br>
+				<input type="radio" id="Definitely" name="Definitely" value="Definitely">
+				<label for ="Definitely"><b>Definitely</b></label><br>
+				<input type="radio" id="Maybe" name="Maybe" value="Maybe">
+				<label for="Maybe"><b>Maybe</b></label><br>
+				<input type="radio">
+				<label><b>Not Sure</b></label><br><br>
+				
+			</div>
+			<!----Second Combo Box--->
+			<div>
+		       <label style = "font-size:18px"><b>What do you like in FCC :</b><label>&nbsp;&nbsp; 
+			   <select class="combo" style = "font-size:15px">
+			   <option></option>
+			   <option>Clearly Explanation</option>
+			   <option>Indentation</option>
+			   <option>Behaviour</option>
+			   </select><br><br>
+		    </div>
+			<!---Check list Box--->
+			<div>
+				<label style = "font-size:20px"><b>Thinks that should be improved in the future(Check  all that apply):</b></label><br><br>
+				<input type="checkbox">
+				<label style = "font-size:15px"><b>Frond-End Project</b></label><br>
+				<input type="checkbox">
+				<label style = "font-size:15px"><b>Back-End Project</b></label><br><br>
+			</div>
+			
+			<!--- Button-->
+			<div>
+				<button style = "font-size:20px" "background-color:Gray">
+				
+				
+				<a href ="./Message Show.html"><b>Save<b></a>
+				
+				
+				</button>
+			</div>
+			
+			<!--Footer Section-->
+			<div>
+				<h2 style = "color:Mediumvioletred">Thank You !!!<h2>
+			</div>
+	 </body>
+</html>
