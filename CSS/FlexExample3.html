@@ -18,41 +18,65 @@
             border: 1px solid;
             height: 400px;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+        }
+        #Product1,#Product3{
+            border: 1px solid;
+            margin: 5px;
             flex-grow: 1;
+        }
+        #Product2{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 2;
         }
         #sec2{
             border: 1px solid;
             height: 400px;
-        }
-        #Product1,#Product3{
-                border: 1px solid;
-                margin: 5px;
-                width: 350px;  
-                height: 360px; 
-        }
-        #item1{
             display: flex;
         }
-        #Product2{
-                border: 1px solid;
-                width: 600px;
+        .item2{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 1;
+            display:flex;
+            flex-direction: column;
+        }
+        #product4{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 1;
+        }
+        #product5{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 2; 
+        }
+        #product6{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 3;
         }
     </style>
 </head>
 <body>
     <header>Pravin Electronics</header>
-    <section id="sec1">
-        <div id="item1">
+    <section id="sec1"> 
             <div id="Product1"></div>
             <div id="Product2"></div>
             <div id="Product3"></div>
-        </div>
     </section >
         
     <section id="sec2">
-        <div>2</div>
+        <div class="item2">
+            <div id="product4"></div>
+            <div id="product5"></div>
+            <div id="product6"></div>
+        </div>
+        <div class="item2">
+            <div id="product4"></div>
+            <div id="product5"></div>
+            <div id="product6"></div>
+        </div>
     </section>
 </body>
 </html>
