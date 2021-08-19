@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Example 3</title>
+    <style>
+        header{
+            font-size: 40px;
+            background-color:khaki;
+            text-align: center;
+            color: navy;
+            padding: 30px;
+            text-transform: uppercase; 
+        }
+        #sec1{
+            border: 1px solid;
+            height: 400px;
+            display: flex;
+        }
+        #Product1,#Product3{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 1;
+        }
+        #Product2{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 2;
+        }
+        #sec2{
+            border: 1px solid;
+            height: 400px;
+            display: flex;
+        }
+        .item2{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 1;
+            display:flex;
+            flex-direction: column;
+        }
+        #product4{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 1;
+        }
+        #product5{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 2; 
+        }
+        #product6{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <header>Pravin Electronics</header>
+    <section id="sec1"> 
+            <div id="Product1"></div>
+            <div id="Product2"></div>
+            <div id="Product3"></div>
+    </section >
+        
+    <section id="sec2">
+        <div class="item2">
+            <div id="product4"></div>
+            <div id="product5"></div>
+            <div id="product6"></div>
+        </div>
+        <div class="item2">
+            <div id="product4"></div>
+            <div id="product5"></div>
+            <div id="product6"></div>
+        </div>
+    </section>
+</body>
+</html>
